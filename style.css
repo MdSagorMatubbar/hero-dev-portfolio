@@ -273,3 +273,35 @@ body {
 #experience .exp-button {
   text-align: center;
 }
+
+/*------- Footer Section--------- */
+footer .footer {
+  width: 87.5%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+footer .footer p {
+  color: #5b5757;
+}
+
+footer .footer .social-icon {
+  display: flex;
+  gap: 32px;
+}
+
+footer .footer .social-icon a i {
+  font-size: 32px;
+  margin: 0 auto;
+}
+
+footer .footer .social-icon a .bi-github {
+  color: black;
+}
+
+hr {
+  margin-bottom: 20px;
+}
