@@ -178,12 +178,12 @@ body {
   margin: 0 auto;
 }
 
-#projects .projects-heading {
+.projects-heading {
   text-align: center;
   margin-bottom: 60px;
 }
 
-#projects .projects-heading h3 {
+.projects-heading h3 {
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 30%;
@@ -191,7 +191,7 @@ body {
   margin-bottom: 14px;
 }
 
-#projects .projects-heading h2 {
+.projects-heading h2 {
   font-size: 38px;
   font-weight: 700;
   color: #1c1c1c;
@@ -236,4 +236,40 @@ body {
 
 #projects .projects-boxs .box-2 {
   flex-direction: row-reverse;
+}
+
+/* ------------Experience Section----------- */
+#experience-section {
+  margin-bottom: 156px;
+}
+
+#experience-section #experience {
+  width: 87.5%;
+  margin: 0 auto;
+}
+
+#experience .exp-spon {
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+#experience .exp-spon .spon {
+  padding: 40px;
+  width: auto;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 4px 0 #0000005d;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#experience .exp-spon .spon:hover {
+  background-color: #0e02021d;
+}
+
+#experience .exp-button {
+  text-align: center;
 }
