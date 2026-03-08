@@ -2,13 +2,14 @@
   margin: 0;
   padding: 0;
   font-family: 'Plus Jakarta Sans', sans-serif;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #fffefa;
 }
 
-/* Common Class */
+/* ---------- Common Class ----------- */
 .btn {
   font-size: 14px;
   font-weight: bold;
@@ -124,7 +125,7 @@ body {
   /* padding-bottom: 20px; */
   box-shadow: 0 4px 4px 0 #0000005d;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 #skill .skill-cart:hover {
   background-color: #0e02021d;
@@ -165,4 +166,59 @@ body {
   color: #0d1321;
   font-size: 16px;
   text-decoration: underline;
+}
+
+/* -------- Projects Section----------- */
+#projects-section {
+  margin-bottom: 156px;
+}
+
+#projects-section #projects {
+  background-color: silver;
+  width: 87.5%;
+  margin: 0 auto;
+}
+
+#projects .projects-heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#projects .projects-heading h3 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 30%;
+  color: #872bff;
+  margin-bottom: 14px;
+}
+
+#projects .projects-heading h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #1c1c1c;
+}
+
+.projects-boxs .box {
+  border: 1px solid #872bff;
+  border-radius: 20px;
+  padding: 48px;
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projects-boxs .box .box-img img {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.projects-boxs .box .box-content h2 {
+  font-size: 32px;
+  color: #0e0e0ecb;
+}
+
+.projects-boxs .box .box-content p {
+  margin-top: 12px;
 }
