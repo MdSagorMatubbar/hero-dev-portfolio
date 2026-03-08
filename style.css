@@ -174,7 +174,6 @@ body {
 }
 
 #projects-section #projects {
-  background-color: silver;
   width: 87.5%;
   margin: 0 auto;
 }
@@ -196,6 +195,11 @@ body {
   font-size: 38px;
   font-weight: 700;
   color: #1c1c1c;
+}
+
+#projects .projects-boxs {
+  display: grid;
+  gap: 60px;
 }
 
 .projects-boxs .box {
@@ -220,5 +224,16 @@ body {
 }
 
 .projects-boxs .box .box-content p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0eb6;
   margin-top: 12px;
+}
+
+.projects-boxs .box .box-content .box-btn {
+  margin-top: 32px;
+}
+
+#projects .projects-boxs .box-2 {
+  flex-direction: row-reverse;
 }
